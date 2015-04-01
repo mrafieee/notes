@@ -3,7 +3,7 @@ LPIC 101
 based on "CBT Nuggets - LPI 101 LPIC-1 Linux System Architecture" videos
 Heare I leave some notes about this series.
 
-#TODO: link this >> https://www.lpi.org/study-resources/lpic-1-101-exam-objectives/
+[LPIC 101 exam highlights](https://www.lpi.org/study-resources/lpic-1-101-exam-objectives/)
 
 Session 1
 -----------
