@@ -3,6 +3,8 @@ LPIC 101
 based on "CBT Nuggets - LPI 101 LPIC-1 Linux System Architecture" videos
 Heare I leave some notes about this series.
 
+#TODO: link this >> https://www.lpi.org/study-resources/lpic-1-101-exam-objectives/
+
 Session 1
 -----------
 Introductions to LPIC exam and certification
@@ -54,6 +56,7 @@ Hard drive layout
 	- Desktop
 	- Network Workstation
 	- Servers
+
 Session 6
 ----------
 * Lilo
@@ -92,3 +95,25 @@ RPM & YUM Packages
 	- /etc/yum.conf
 	- /etc/yum.repos.d/
 * yumdownloader
+
+Session 10
+-----------
+Work with the command line
+
+* Bash
+	- Shell environment
+	- PATH
+	- history
+	- environment variables
+	- completion
+* Commands
+	- exec, pwd, ls, unset, env, export, set
+
+Session 11
+----------
+Processing text streams using filters
+
+* Text utiles
+cat, cut, expand, *fmt*, head, *od*, *join*, *nl*, *paste*, *pr*, *sed*, *sort*, *split*, tail, *tr*, *unexpand*, uniq, wc
+
+
