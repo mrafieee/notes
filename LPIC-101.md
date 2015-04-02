@@ -116,4 +116,14 @@ Processing text streams using filters
 * Text utiles
 cat, cut, expand, *fmt*, head, *od*, *join*, *nl*, *paste*, *pr*, *sed*, *sort*, *split*, tail, *tr*, *unexpand*, uniq, wc
 
+Session 12
+----------
+Basic file management
+
+* Copy, move, delete
+* Wildcards (golbbing)
+* Find files based on type, size, date
+* tar, cpio, dd
+* bzipz, gunzip
+
 
