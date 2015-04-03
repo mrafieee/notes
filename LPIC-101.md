@@ -144,10 +144,25 @@ Session 14
 ----------
 Weight 4 - Create monitor, kill process
 
-* Background & forground - jobs
-* Persistent prcesses
+* Background & forground - jobs, fg, bg, &
+* Persistent prcesses - nohup
 * Interact with processes
 * Sort running processes
 
+Session 15
+----------
+Weight 2 - Process priorities
 
+* niceness explained
+* ps
+* pstree
+* top
+* nice
+* renice
 
+Session 16
+----------
+Weight  2 - Search text files with regular experssions
+
+* grep, fgrep, egrep, sed
+* Regex
