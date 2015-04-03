@@ -166,3 +166,27 @@ Weight  2 - Search text files with regular experssions
 
 * grep, fgrep, egrep, sed
 * Regex
+
+Session 17
+----------
+Weight 3 - Basic text file editing with vi
+
+* vi
+	- insert/command modes - i/<esc>
+	- HJKL instead of arrows inn command mode
+	- a , i , o
+	- copy(yank)/paste - y[y|w|l]/p
+	- cut/paste - d[d|w|l]/p
+	- search / or ? - n next/ N previous
+	- ZZ , :wq , :w newfile , :q!
+	- change c[c|w|l]
+
+Session 18
+----------
+Weight 2 - Create patitions and filesystems
+
+* Partition
+* Create filesystem
+	- vfat, ext2, ext3, xfs, reiserfs
+* make swap space
+
