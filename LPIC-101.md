@@ -190,3 +190,10 @@ Weight 2 - Create patitions and filesystems
 	- vfat, ext2, ext3, xfs, reiserfs
 * make swap space
 
+Session 19
+----------
+Weight 2 - Maintain the integrity of filesystems
+
+* Check the integrity - fsck
+* Monitor free space/inodes - df, du
+* Repaire some problems - debugfs tune2fs dumpe2fs
