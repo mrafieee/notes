@@ -196,4 +196,4 @@ Weight 2 - Maintain the integrity of filesystems
 
 * Check the integrity - fsck
 * Monitor free space/inodes - df, du
-* Repaire some problems - debugfs tune2fs dumpe2fs
+* Repaire some problems - debugfs, tune2fs, dumpe2fs, xfs tools

@@ -50,5 +50,16 @@ WAN Connection
 
 NAT
 ------------
+* static nating 
+* using ACL
+
+Access lists
+-----------
 :TODO:
 
+Security
+----------
+:TODO:
+
+* Layer 2
+* Layer 3

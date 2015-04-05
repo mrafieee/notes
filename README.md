@@ -1,4 +1,4 @@
-Some notes
+My notes
 ==============
 
 [LPIC 101 Notes](https://github.com/mrafieee/notes/blob/master/LPIC-101.md)
