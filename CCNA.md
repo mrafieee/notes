@@ -47,15 +47,21 @@ Routing
 WAN Connection
 --------------
 * Frame relay connection
+* MPLS
+*
 
 NAT
 ------------
-* static nating 
-* using ACL
+* delivering service to internet from inside site - using NAT
+* internet access for users - using ACL
+	* defining ACL
+	* specifinig nat inside/outside on interfaces
+	* nat command using defined ACL
 
 Access lists
 -----------
-:TODO:
+* permit
+* deny
 
 Security
 ----------
