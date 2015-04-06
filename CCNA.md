@@ -52,20 +52,18 @@ WAN Connection
 
 NAT
 ------------
-* delivering service to internet from inside site - using NAT
-* internet access for users - using ACL
-	* defining ACL
-	* specifinig nat inside/outside on interfaces
-	* nat command using defined ACL
-
-Access lists
------------
-* permit
-* deny
+* Delivering service to internet from inside site - using NAT
+* Internet access for users - using ACL
+	* Defining ACL
+	* Specifinig nat inside/outside on interfaces
+	* Nat command using defined ACL
 
 Security
 ----------
-:TODO:
-
 * Layer 2
+	- Port seecurity - to specifing the maximum number of mac addesses over one port
 * Layer 3
+	- Access lists
+		* permit IPs, Ports
+		* deny IPs, Ports
+
