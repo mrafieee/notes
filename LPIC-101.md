@@ -197,3 +197,12 @@ Weight 2 - Maintain the integrity of filesystems
 * Check the integrity - fsck
 * Monitor free space/inodes - df, du
 * Repaire some problems - debugfs, tune2fs, dumpe2fs, xfs tools
+
+Session 20
+----------
+Weight 3 - Mounting and unmounting filesystems
+
+* Manual mounting/umounting
+* Mounting on bootup (/etc/fstab)
+* User mountable filesystems
+* Automount
