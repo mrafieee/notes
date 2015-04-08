@@ -206,3 +206,28 @@ Weight 3 - Mounting and unmounting filesystems
 * Mounting on bootup (/etc/fstab)
 * User mountable filesystems
 * Automount
+
+Session 21
+----------
+Weight 1 - Manage Disk quotas
+
+* Setup quotas on disk - quota, quotaoff, quotacheck, edquota, repquota
+* Edit settings
+* Check Quotas
+* Generate reports
+* Hard limits, Soft limits
+
+Session 22
+----------
+Weight 3 - Manage file ownership and permissions
+
+* Ownership
+	- chown
+	- chgrp
+* Permissions
+	- files & folders
+	- chmod
+	- octal
+	- umask
+* Special permissions
+	- SUID, GUID, Sticky bit
