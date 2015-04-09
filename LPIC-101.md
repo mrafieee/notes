@@ -231,3 +231,21 @@ Weight 3 - Manage file ownership and permissions
 	- umask
 * Special permissions
 	- SUID, GUID, Sticky bit
+
+Session 23
+----------
+Weight 2 - Create and change hard and symbolic links
+
+* Hard links
+* Soft (symbolic) links
+* ln
+
+Session 24
+----------
+weight 2 - Find system files, and place file in correct location
+
+* FHS (File Hierarchy Standard)
+* Find diles and commands
+* Find, locate, updatedb, whereis, which, type
+* /etc/updatedb.conf
+
