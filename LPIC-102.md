@@ -49,3 +49,13 @@ Weight 4 - l05.2 - Customize or write shell scripts
 * Manage location, permission, ownership, and suid rights
 * Read input from command line
 
+Session 4
+-----------
+Weight 2 - 105.3 - SQL Data Management
+
+* Basic commands
+	- open database
+* Manipulate Data
+	- insert, update, select, delete, join
+	- from, where, groupby,orderby
+ 
