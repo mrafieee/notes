@@ -1,4 +1,4 @@
-LPIC 101
+LPIC 102
 ====
 Based on "CBT Nuggets - LPI Linux LPIC-1 102 and CompTIA Linux+" videos
 Hear I leave some notes about this series.
@@ -29,9 +29,20 @@ Session 3
 Weight 4 - l05.2 - Customize or write shell scripts
 
 * Standard sh syntax
+	- #! is called <shebang>
+	- giving root suid permission to script files is dangerios !!!
 * Command substitution
 * Conditionaal tests
-	- Mail to superuser
+	- test option experssions
+		* -x is an exec. file
+		* -e does the file exists
+		* -eq are equal
+		* -ne are the values not equal
+		* -z does it have value
+	- exit codes - 0(True) not 0(false) the value assigne to $
+	- Mail to superuser 
+		- mail -s "Subject" user < message.txt
+		- echo "message" | mail -s "Subject" user 
 * Loops
 	- for
 	- while
