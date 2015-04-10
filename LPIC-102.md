@@ -24,3 +24,17 @@ Weight 4 - 105.1 - Customized and use the shell environment
 	- can be accessed in current terminal and every child process
 * Set command search path
 
+Session 3
+-----------
+Weight 4 - l05.2 - Customize or write shell scripts
+
+* Standard sh syntax
+* Command substitution
+* Conditionaal tests
+	- Mail to superuser
+* Loops
+	- for
+	- while
+* Manage location, permission, ownership, and suid rights
+* Read input from command line
+
