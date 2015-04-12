@@ -69,4 +69,19 @@ Weight 2 - 106.1 - Install and configure X11
 	- sudo X -configure
 * Xorg.conf, xhost, xwininfo, xdpyinfo, X, DISPLAY, startx
 
+Session 6
+-----------
+Weight 2 - 106.2 - Setup a display manager
 
+* GDM, KDM, XDM
+	- turn on/off
+		* centos /etc/inittab change default init
+		* ubuntu /etc/default/grub GRUB_CMDLINE_LINUX="text"
+	- debian based /etc/X11 for changing default display manager
+	- redhat based /etc/sysconfig/desktop DISPLAYMANAGER='KDE'
+	- change the greeting
+		* /etc/X11/xdm
+		* kdmrc
+	- change default color depth
+	- configure for use by remote x stations
+		* xdm-config - Display manager.requestport Xaccess
