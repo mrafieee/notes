@@ -59,3 +59,14 @@ Weight 2 - 105.3 - SQL Data Management
 	- insert, update, select, delete, join
 	- from, where, groupby,orderby
  
+Session 5
+-----------
+Weight 2 - 106.1 - Install and configure X11
+
+* Verify video and monitor are supported by x server
+* Know what the x font server is and does
+* Understand the basics of the X configuration file
+	- sudo X -configure
+* Xorg.conf, xhost, xwininfo, xdpyinfo, X, DISPLAY, startx
+
+
