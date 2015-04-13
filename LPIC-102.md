@@ -93,3 +93,16 @@ Weight 1 - 106.3 - Accessibility features
 * keyboard settings
 * visual settings
 * Assistive technology
+
+Session 8
+-----------
+Weight 5 - 107.1 - Manage user and group accounts and related files
+
+number of days since jan/1st/1970 !!!!!!
+
+* Sahadow password system
+* useradd, userdel, usermod
+* groupadd, groupdel, groupmod
+* chage, passwd
+* Suspend accounts, manage special & limited accounts
+
