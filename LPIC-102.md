@@ -85,3 +85,11 @@ Weight 2 - 106.2 - Setup a display manager
 	- change default color depth
 	- configure for use by remote x stations
 		* xdm-config - Display manager.requestport Xaccess
+
+Session 7
+-----------
+Weight 1 - 106.3 - Accessibility features
+
+* keyboard settings
+* visual settings
+* Assistive technology
