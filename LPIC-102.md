@@ -106,3 +106,16 @@ number of days since jan/1st/1970 !!!!!!
 * chage, passwd
 * Suspend accounts, manage special & limited accounts
 
+Session 9
+------------
+Weight 4 - 107.2 Automate system administration tasks by scheduling jobs
+
+* Cron
+* anacrone
+* at
+* access controls
+
+/etc/crontab
+/etc/cron.d/
+/etc/cron.{hourly,daily,weekly,monthly}
+/var/spool/cron
