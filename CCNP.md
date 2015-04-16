@@ -46,7 +46,6 @@ Introduction to course tools GNS3, Pachet tracer
 	- securing enable
 	- ssh configuration
 	- connection to local machine
-
 * Line vty
 	- 15 for fifteen users
 	- by default 0-4 for five users
