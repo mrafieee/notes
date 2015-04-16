@@ -119,3 +119,17 @@ Weight 4 - 107.2 Automate system administration tasks by scheduling jobs
 /etc/cron.d/
 /etc/cron.{hourly,daily,weekly,monthly}
 /var/spool/cron
+
+Session 10
+-----------
+Weight 3 - 107.3 - Localisation and internationalisation
+
+* Locale Settings
+	- Languages
+	- Formats & dates, etc
+	- Character formats
+	- Converting formats
+* Timezone settings
+	- Setting timezone
+	- Setting date & time
+
