@@ -82,3 +82,63 @@ Introduction to course tools GNS3, Pachet tracer
 	- Hybrid - BW, load, truput, reliability is important
 		* EIGRP
 * Static Routing
+
+Session 3
+-----------
+* EIGRP
+	* Hybrid routing protocol
+	* Recommanded by cisco
+	* Supported by other companies
+
+* EIGRP Convergency
+	* Neighbor discovery
+	* Topology table
+	* Routing table
+
+* EIGRP negotiation between A router and B router
+	* A sends hello message
+		- multicast
+		- 224.0.0.10/32
+	* B replies with an update message
+		- if this is the first hello from that interface B sends a full update message
+		- after first time partial updates will be tranfered between routers
+	* A replies with ACK 
+	* A sends an update message
+	* B sends ACK 
+
+* Updates are sent via RTP (Reliable Transfer Protocol)
+
+* Route priority criterias
+	- BW  - like link state protocols
+	- delay - like distance vetor protocols
+	- L , R , T
+
+* HELLO message
+	- hello interval time - default 5 s
+		* the time that each router send hello to neighbors
+	- hello hold time - default 15 s
+		* after this time if no hello recived the destination will be removed from routing/neighbor table
+	- passive-interfaces will not recieve hello messages
+
+* Reporting commands
+	- show ip eigrp topology 
+	- show ip route eigrp
+	- show ip eigrp neighbors
+
+* neighbor table fields
+	- Address
+	- Interface
+	- Hold time (seconds)
+	- SRTT
+	- RTO
+	- Q
+	- Seq Number
+
+* EIGRP Authentication
+	- Create a key chain
+		* needs at least 1 key & 1 password
+		* runs in conf t
+	- Enabling MD5 on specific int in eigrp
+		* runs in int
+	- Assigning key chain to eigrp
+		* runs in int
