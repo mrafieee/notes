@@ -133,3 +133,14 @@ Weight 3 - 107.3 - Localisation and internationalisation
 	- Setting timezone
 	- Setting date & time
 
+Session 11
+-----------
+Weight 3 - 108.1 - Maintain System Time
+
+* Set System date & time
+* Set hardware clock to UTC
+	- hwclock -w
+* Basic NTP configuration
+* pool.ntp.org
+
+-- timezone info --
