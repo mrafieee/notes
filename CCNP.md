@@ -142,3 +142,47 @@ Session 3
 		* runs in int
 	- Assigning key chain to eigrp
 		* runs in int
+
+Session 4
+-----------
+* Refurbish, Used & DEM Terms
+
+* EIGRP main actions
+	- Neighbor discovery, using hello packets
+	- Sending updates, mainly topology tables
+	- Creating a reliable routing table
+
+* EIGRP disadjancy events
+	- Not matched AS numbers
+	- Authenticaion
+	- Passive interface
+	- Hello/Hold time conflicts
+	- Metrics modifications
+
+* EIGRP messages
+	- Hello
+	- Update
+	- ACK
+	- Query
+	- Reply
+
+* Exchanging Data (Update packets)
+	* Data
+		- Address (Prefix)
+		- Prefix length (Mask)
+		- Metric
+		- MTU
+		- ...
+	* Update process is unicast
+	* Updates are sended via RTP
+
+Interfaces Delay/Bandwidth table
+| Interface | Delay | Bandwidth |
+|:---------:|:-----:|:---------:|
+| Serial | 2000 | 1544 |
+| Gig | 1 | 1,000,000 |
+| Fast | 10 | 100,000 |
+| Ethe | 100 |10,000|
+
+
+
