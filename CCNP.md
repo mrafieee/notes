@@ -177,6 +177,7 @@ Session 4
 	* Updates are sended via RTP
 
 Interfaces Delay/Bandwidth table
+
 | Interface | Delay | Bandwidth |
 |:---------:|:-----:|:---------:|
 | Serial | 2000 | 1544 |
