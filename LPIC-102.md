@@ -149,6 +149,29 @@ Session 12
 -----------
 Weight 2 - 108.2 - System logging
 
+* Logs
+	- facilities
+		* mail
+		* cron
+		* auth
+		* kern
+		* ...
+	- priorities
+		* emerg, panic
+		* alert
+		* crit
+		* err, error
+		* warn, warning
+		* notice
+		* info 
+		* debug
+	- actions
+		* files		, /var/log/name.log
+		* remote host 	, @host name or ip
+		* user		, /dev/console
+		* pipe		,
+	
+	- - basiclly means do not flush cache files
 * Syslog
 	* configuration
 	* sendto remote server
