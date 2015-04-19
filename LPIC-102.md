@@ -144,3 +144,16 @@ Weight 3 - 108.1 - Maintain System Time
 * pool.ntp.org
 
 -- timezone info --
+
+Session 12
+-----------
+Weight 2 - 108.2 - System logging
+
+* Syslog
+	* configuration
+	* sendto remote server
+	* act as central server
+	* facilities, actions
+
+* klogd
+	* same config file
