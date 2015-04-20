@@ -180,3 +180,15 @@ Weight 2 - 108.2 - System logging
 
 * klogd
 	* same config file
+
+Session 13
+-----------
+Weight 3 - 108.3 -Mail Teansfer agent (MTA) Basics
+
+* Know common MTA Programms
+* Understand sendmail emulation layer
+* Create email aliases
+* Configure email forwarding
+* Use commandline "mail" program
+
+
