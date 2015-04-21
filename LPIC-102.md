@@ -191,4 +191,15 @@ Weight 3 - 108.3 -Mail Teansfer agent (MTA) Basics
 * Configure email forwarding
 * Use commandline "mail" program
 
+Session 14
+------------
+Weight 2 - 108.4 - Manage Printers & printing
 
+* Basic CUPS Configuration
+	- local printers
+	- network printers
+* Manage print queues
+* Troubleshoot printing problems
+* Add and remove jobs from printer queues
+* lpd leagacy interface
+	- lpr, lprm, lpq
