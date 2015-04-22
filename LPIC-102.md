@@ -203,3 +203,17 @@ Weight 2 - 108.4 - Manage Printers & printing
 * Add and remove jobs from printer queues
 * lpd leagacy interface
 	- lpr, lprm, lpq
+
+Session 15
+------------
+Weight 4 - 109.1 - Fundamentals of internet protocols
+
+* IP addressing and network masks
+	- 4 octed numbers
+	- CIDR notation
+* Public and private dotted-quad IP addresses
+* How to set a default route
+* Understand the differences ad major features of UDP, TCP, and ICMP
+* Knowlwdge of the differences between IPv4 and IPv6
+* Know common TCP and UDP ports
+	- 20, 21, 22, 23, 25, 53, 80, 110, 119, 139, 143, 161, 443,465, 993,995
