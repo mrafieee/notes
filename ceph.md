@@ -10,7 +10,7 @@ I followed the following instaructions:
 General instructions
 ------------------
 
-# /etc/hosts & /etc/hostname configurations for ceph1, ceph2
+ /etc/hosts & /etc/hostname configurations for ceph1, ceph2
 * fdisk /dev/sdb
 * mkfs -t xfs -f /dev/sdb1
 * mkdir -p /srv/ceph/{mon1,osd11}
@@ -21,6 +21,7 @@ General instructions
 
 Ceph instructions
 --------------------
+
 * apt-get install -y ceph xfsprogs
 * # /etc/ceph/ceph.conf configuration
 * mkcephfs -a -c /etc/ceph/ceph.conf -k /etc/ceph/keyring.admin
@@ -32,6 +33,7 @@ Ceph instructions
 
 RBD instructions
 -------------------
+
 * ceph-authtool --print-key /etc/ceph/keyring.admin | tee client.admin
 * rados lspools
 * rados mkpool nova
