@@ -232,3 +232,24 @@ Weight 4 - 109.2 - Basic network configuration
 * Basic host TCP/IP configuration
 * test and verify configuration
 	-use ping
+
+Session 17
+-----------
+Weight 4 - 109.3 - Basic Network Troubleshooting
+
+* Network interfaces
+	- add,start, stop, restart, delete & configure
+	- do all that manually or automatically
+* Routing table
+	- Change, View, & configure
+	- fix incorect default route
+* Debug network configuration
+	-dig, host, netstat
+
+Session 18
+-----------
+Weight 2 - 109.4 - Configure client side DNS
+
+* Demonstrate DNS on local system
+* Modify the order in which name resolution is done
+* Configure DNS on client system
