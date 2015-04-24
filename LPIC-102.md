@@ -217,3 +217,15 @@ Weight 4 - 109.1 - Fundamentals of internet protocols
 * Knowlwdge of the differences between IPv4 and IPv6
 * Know common TCP and UDP ports
 	- 20, 21, 22, 23, 25, 53, 80, 110, 119, 139, 143, 161, 443,465, 993,995
+
+Session 16
+-----------
+Weight 4 - 109.2 - Basic network configuration
+
+* Configure network interfaces
+	- manually with ifconfig & route
+	- automatically with ifup & ifdown
+	- configure interfaces for proper DNS settings
+* Basic host TCP/IP configuration
+* test and verify configuration
+	-use ping
