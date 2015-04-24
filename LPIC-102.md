@@ -225,6 +225,9 @@ Weight 4 - 109.2 - Basic network configuration
 * Configure network interfaces
 	- manually with ifconfig & route
 	- automatically with ifup & ifdown
+		* Redhat > /etc/sysconfig/network-scripts/ifcfg-eth0 /etc/sysconfig/network
+		* Debian > /etc/network/interfaces
+		* ifconfi eth0 hw ether 00:00:00:00:00:11
 	- configure interfaces for proper DNS settings
 * Basic host TCP/IP configuration
 * test and verify configuration
