@@ -13,52 +13,23 @@
 ##
 # ← this one must be removed; not that one → #use wml::debian::translation-check translation="1.1" maintainer=""
 
-
 <p>
-
-</p>
-<p>After almost 24 months of constant development the Debian project is
-proud to present its new stable version 8 (code name <q>Jessie</q>),
-which will be supported for the next 5 years thanks to the combined
-work of the <a href="http://security-team.debian.org/">Debian Security
-team</a> and of the <a href="https://wiki.debian.org/LTS">Debian Long Term
-Support</a> team.
-</p>
-
-<p><q>Jessie</q> ships with a new default init system, <code>systemd</code>.  The
-<code>systemd</code> suite provides many exciting features such as faster
-boot times, cgroups for services, the possibility of isolating part of
-the services.  The <code>sysvinit</code> init system is still available
-in <q>Jessie</q>.
+پس از ۲۴ ماه توسعه مداوم پروژه دبیان مفتخر است انتشار نسخه ۸ام پایدار خود را (با نام مستعار جسی -Jessie) اعلام  نماید. این نسخه به شکر فعالیت‌ های دو تیم امنیت و تیم پشتیبانی بلند مدت تا ۵ سال آینده مورد پشتیبانی بلند مدت قرار خواهد گرفت.
 </p>
 
 <p>
-The UEFI (<q>Unified Extensible Firmware Interface</q>) support introduced in
-<q>Wheezy</q> has also been greatly improved in Jessie.
-This includes work arounds for many known firmware bugs, support
-for UEFI on 32-bit systems and support for 64-bit kernels with 32-bit UEFI
-firmware (with the latter being included only on our <code>amd64/i386</code>
-<q>"multi-arch"</q> installation media).
+جسی (jessie) به صورت پیش‌فرض با سیستم جدید مدیریت بوت خود systemd ارائه گردیده است. مجموعه Systemd امکانات هیجان انگیزی از جمله بوت با سرعت بالا، cgroups  برای سرویس‌ها، و امکان ایزوه کردن بخشی از سرویس خاص را فراهم می‌کند. Sysvinit, سیستم سابق init همچنین در جسی (jessie) در دسترسی می‌باشد.
+UEFI که در نسخه پیشین دبیان ویزی (wheezy) معرفی گردیده‌ بود همچنین در این نسخه (جسی) بهبود قابل توجهی پیداکرده است.
 </p>
-
-<p>Since the previous release, members of the Debian project have also
-made important improvements to our supporting services.  One of these is <a
-href="https://www.debian.org/News/weekly/2013/14/#sources">a browsable
-view of all source code shipped in Debian</a> currently available at
-<a href="https://sources.debian.net">sources.debian.net</a>.  Of
-course, with over 20,000 source packages, it can be quite daunting to
-locate the right file.  Therefore, we are also very
-pleased to present <a
-href="https://www.debian.org/News/weekly/2014/17/#DCS">Debian Code
-Search</a>, available at <a
-href="https://codesearch.debian.net/">codesearch.debian.net</a>.
-Both services are complemented by a completely rewritten and more
-reponsive <a href="https://tracker.debian.org/">package tracking system</a>.
-</p>
-
 <p>
-This release includes numerous updated software packages, such as:
+این تغییرات شامل راه‌حل‌هایی برای مشکلات firmware‌ها، پشتیبانی UEFI بر روی سیستم‌های ۳۲ بیتی و پشتیبانی از کرنل‌های ۶۴ بیتی با UEFI‌های ۳۲ بیتی البته مورد دوم تنها در نصاب‌های <code>amd64/i386</code> برای <q>"multi-arch"</q> اضافه شده است.
 </p>
+<p>
+از انتشار پیشین، اعضا پروژه دبیان بهبود‌های شگرفی در سیستم پشتیبانی مان ارائه کرده اند. یکی از آن‌ها <ahref="https://www.debian.org/News/weekly/2013/14/#sources"> سیستم قابل پیمایش و مرور کلیه‌ی کد‌های برنامه‌هایی است که به مخازن دبیان منتقل شده‌اند. </a> به طور حتم، با بیش از ۲۰ هزار بسته نرم‌افزاری پیدا کردن یک فایل خاص می‌تواند واقعاً دلهره‌آور باشد، با وجود این ما مسروریم <a href="https://www.debian.org/News/weekly/2014/17/#DCS"> سامانه جستجوی کد دبیان  </a> را واقع در <a href="https://codesearch.debian.net/">codesearch.debian.net</a>
+معرفی نماییم. هر دوی است سرویس‌ها تکمیل شده‌اند و کاملاً بازنویسی شده <a href="https://tracker.debian.org/"> سیستم پیگیری بسته‌های سابق </a> می‌باشد.
+</p>
+<p>
+این انتشار شامل بروزرسانی‌های متعددی در بسته‌های نر‌افزاری می‌باشد از جمله آن‌ها می‌توان به موارد زیر اشاره کرد:
 <ul>
 <li>Apache 2.4.10</li>
 <li>Asterisk 11.13.1</li>
@@ -85,98 +56,61 @@ This release includes numerous updated software packages, such as:
 <li>more than 43,000 other ready-to-use software packages, built from
 nearly 20,100 source packages.</li>
 </ul>
-
-<p>
-With this broad selection of packages and its traditional wide architecture support,
-Debian once again stays true
-to its goal of being the universal operating system. It is suitable
-for many different use cases: from desktop systems to netbooks; from
-development servers to cluster systems; and for database, web, or
-storage servers. At the same time, additional quality assurance
-efforts like automatic installation and upgrade tests for all packages
-in Debian's archive ensure that <q>Jessie</q> fulfills the high
-expectations that users have of a stable Debian release. 
 </p>
-
 <p>
-A total of ten architectures are supported: 32-bit PC / Intel IA-32
+به واسطه گزینش خاص بسته‌ها و به رسم سنت پشتیبانی از دامنه وسیعی از معماری‌ها دبیان به درستی بازهم مطابق با هدفش همگانی و جهانی بودن خود را در میان توزیع‌های دیگر حفظ می‌کند.
+همچنان برای بسیاری از کاربرد‌های متفاوت مناسب می‌باشد: سیستم‌های خانگی و کاربری عمومی گرفته تا نت بوک‌ها . از سرور‌های توسعه کد گرفته تا سیستم‌های یکپارجه‌ی خوشه‌ای. و برای پایگاه‌داده‌ها و اینترنت یا سرور‌های ذخیره فایل.
+به صورت همزمان‌ آزمون‌های سنجش کیفیت مانند نصب خودکار و بروزرسانی تست‌ها برای کلیه‌ی بسته‌ها دبیان به ما این اطمینان را می‌دهد که جسی (jessie)  کلیه‌ی انتظارات کاربران را در راستای داشتن یک نسخه پایدار دبیان مرتفع می‌کند.
+
+مجموعاً ۱۰ معماری پشتیبانی می‌شود: 32-bit PC / Intel IA-32
 (<code>i386</code>), 64-bit PC / Intel EM64T / x86-64
-(<code>amd64</code>), Motorola/IBM PowerPC (<code>powerpc</code> for
-older hardware and <code>ppc64el</code> for the new 64-bit
-(little-endian)), MIPS (<code>mips</code> (big-endian) and
-<code>mipsel</code> (little-endian)), IBM S/390 (64-bit
-<code>s390x</code>) and for ARM, <code>armel</code> and <code>armhf</code>
-for old and new 32-bit hardware, plus <code>arm64</code> for the new 64-bit
-<q>AArch64</q> architecture.</p>
-
-<p>
-<h3>Want to give it a try?</h3>
-<br />
-If you simply want to try Debian 8 <q>"Jessie"</q> without having to install it, you can use a
-special image, known as a live image, available for CDs, USB sticks, and netboot
-setups. Initially, these images are provided for the <code>amd64</code> and
-<code>i386</code> architectures only.  It is also possible to use these live
-images to install Debian. More information is available from the 
-<a href="http://live.debian.net/">Debian Live homepage</a>.
+(<code>amd64</code>), Motorola/IBM PowerPC (<code>powerpc</code> برای سخت‌افزار‌های قدیمی و <code>ppc64el</code> و برای ۶۴ بیتی‌های جدید (little-endian) ، میپس (<code>mips</code> (big-endian) و برای معماری آرم  <code>armel</code> و <code>armhf</code> و برای سخت‌افزارهای ۳۲ بیتی قدیم و جدید و اضافه بر این‌ها <code>arm64</code> برای برای سخت‌افزار‌های ۶۴ بیتی با معماری  <q>AArch64</q> .
 </p>
 
+<h2>
+می‌خوای امتحانش کنی؟
+</h2>
 <p>
-If, instead, you want to install it to your computer's permanent storage, you can choose among
-a range installation media, such as Blu-ray Discs, DVDs,
-CDs, and USB sticks, or from the network.  Several desktop environments &mdash;
-GNOME, KDE Plasma Desktop and Applications, Xfce, and LXDE &mdash; may be
-installed through CD images; the desired one may be chosen from the boot menus
-of the CDs/DVDs.  In addition, multi-architecture CDs and DVDs are available
-which support installation of multiple architectures from a single disc.
-Or you can always create bootable USB installation media
-(see the <a href="$(HOME)/releases/jessie/installmanual">Installation Guide</a>
-for more details).  For cloud users Debian also offers 
-<a href="http://cdimage.debian.org/cdimage/openstack/current/">pre-built
-OpenStack images</a>, ready to use.
+اگر قصد داری دبیان ۸ (جسی – jessie )  را بدون اینکه نصبش کنید، امتحان کنید می‌توانید نسخه مخصوص که تحت عنوان نسخه live  ارائه گردیده است که به صورت CD ، USB یا جهت راه‌اندازی روی نت بوک‌ها قابل استفاده می‌باشد.
+
+به صورت پیش‌فرض این نسخه‌ها فقط برای استفاده در معماری‌های <code>amd64</code> و <code>i386</code> آماده گردیده‌اند. الیته از این نسخه‌ها می‌توان برای نصب دبیان نیز استفاده کرد.
+اطلاعات بیشتر در بخش <a href="http://live.debian.net/"> نسخه live  دبیان </a> موجود می‌باشد.
+
+در صورتی که می‌خواهید آن را روی دیسک اصلی خود نصب نمایید می‌توانید از بین موارد متنوعی که آماده شده است اعم از blue-ray، CD, DVD,USB با نسخه نصب از طریق شبکه آن افدام به نصب جسی نمایید. محیط‌های مختلف کاربری گنوم، KDE ، xfce , … قابل نصب از طریق CD  می‌باشند. همچنین نصاب‌های جدید دبیان برای نصب معماری‌های ۳۲ و ۶۴ بیتی بنا به انتخال کاربر از روی یک دیسک نیز آماده گردیده است که برای اولین بار ارائه میگردد، همچنین شما مثل همیشه می‌توانید USB <a href="$(HOME)/releases/jessie/installmanual">  قابل بوت </a>
+ خود را بسازید. همچنین کابران رایانش ابری می‌توانند  <a href="http://cdimage.debian.org/cdimage/openstack/current/">نسخه‌های از پیش آماده شده اوپن استک </a> را دانلود و نصب کنند.
+
+فایل‌های فوق  همین الآن قابل دانلود از طریق مجاری زیر می‌باشد.
+<a href="$(HOME)/CD/torrent-cd/">نورنت</a> (روش مورد پیشنهاد),
+<a href="$(HOME)/CD/jigdo-cd/#which">jigdo</a>, یا
+<a href="$(HOME)/CD/http-ftp/">HTTP</a>;
+<a href="$(HOME)/CD/">دبیان بر روی سی دی</a>
+
+نسخه هارد کپی جسی بر روی CD, DVD, Blue-ray  با پشتیبانی <a href="$(HOME)/CD/vendors"> شرکت‌های مختلف تجاری  </a> ارايه خواهد شد.
+</p>
+<h2>
+بروز رسانی دبیان
+</h2>
+<p>
+بروزرسانی دبیان از نسخه پیشین به نسخه ۸ به صورت کاملاً اتوماتیک توسط نرم‌افزار apt-get  پشتیبانی می‌شود، بدون اینکه نیاز به هرگونه قطعی در سرویسدهی باشد ولی برای اطمینان بیشتر پیشنهاد می‌شود ابتدا راهنمای زیر را مطالعه نمایید.
+
+ <a href="$(HOME)/releases/jessie/releasenotes">متن انتشار</a> همچنین
+the <a href="$(HOME)/releases/jessie/installmanual">راهنمای نصب</a>
+
+چون ممکن است برخی مشکلات احتمالی وجود داشته باشد همچنین متن انتشار طی جند هفته بد از انتشار به زبان‌های مختلف ترجمه شده و در اختیار کاربران قرار می‌گیرد.
+
+<h2>
+در مورد دبیان
+</h2>
+دبیان یک سیستم‌عامل آراد می‌باشد که توسط مشارکت هزاران داوطلب از سرتاسر دنیا بر بستر اینترنت توسعه داده می‌شود. مشخصه اصلی دبیان توسعه داوطلب محور بودن، فداکاری در راستای فرارداد اجتماعی آزاد دبیان و تعهد داوطلبان در فراهم کردن بهترین سیستم عامل ممکن می‌باشد.
+
+دبیان ۸ فدمی استوار در این راستا می‌باشد.
 </p>
 
-<p>
-The installation images may be downloaded right now via
-<a href="$(HOME)/CD/torrent-cd/">bittorrent</a> (the recommended method),
-<a href="$(HOME)/CD/jigdo-cd/#which">jigdo</a>, or
-<a href="$(HOME)/CD/http-ftp/">HTTP</a>; see
-<a href="$(HOME)/CD/">Debian on CDs</a> for further information.  <q>Jessie</q> will
-soon be available on physical DVD, CD-ROM, and Blu-ray Discs from
-numerous <a href="$(HOME)/CD/vendors">vendors</a> too.
-</p>
+<h2>اطلاعات تماس</h2>
+
 
 <p>
-<h3>Upgrading Debian</h3>
-<br />
-Upgrades to Debian 8 from the previous release, Debian
-7 (codenamed <q>Wheezy</q>), are automatically handled by
-the apt-get package management tool for most configurations.
-As always, Debian systems may be upgraded painlessly, in place,
-without any forced downtime, but it is strongly recommended to read
-the <a href="$(HOME)/releases/jessie/releasenotes">release notes</a> as well as
-the <a href="$(HOME)/releases/jessie/installmanual">installation guide</a>
-for possible issues, and for detailed instructions on installing and
-upgrading.  The release notes will be further improved and translated
-to additional languages in the weeks after the release.
-</p>
+برای اطلاعات بیشتر لطفاً از وب سابت دبیان به آدرس
+<a href="$(HOME)/">https://www.debian.org/</a> مراجعه نمایید و یا ایمیل‌های خود را به آدرس &lt;press@debian.org&gt;.
+</p> ارسال نمایید.
 
-
-<h2>About Debian</h2>
-
-<p>
-Debian is a free operating system, developed by
-thousands of volunteers from all over the world who collaborate via the
-Internet. The Debian project's key strengths are its volunteer base, its
-dedication to the Debian Social Contract and Free Software, and its commitment to provide
-the best operating system possible. Debian 8 is another important step
-in that direction.
-</p>
-
-
-<h2>Contact Information</h2>
-
-<p>
-For further information, please visit the Debian web pages at
-<a href="$(HOME)/">https://www.debian.org/</a> or send mail to
-&lt;press@debian.org&gt;.
-</p>
