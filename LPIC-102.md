@@ -253,3 +253,14 @@ Weight 2 - 109.4 - Configure client side DNS
 * Demonstrate DNS on local system
 * Modify the order in which name resolution is done
 * Configure DNS on client system
+
+Session 19
+------------
+Weight 3 - 110.1 - Perform security addministration tasks
+
+* Find files with suid/guid bit set
+* Change passwords and password aging information
+* Setup limits on user logins, processes, and memory usage
+	- /etc/security/limits.conf
+* Use nmap and nestat to find open ports on a system
+* Configure sudo
