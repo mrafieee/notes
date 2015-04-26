@@ -264,3 +264,33 @@ Weight 3 - 110.1 - Perform security addministration tasks
 	- /etc/security/limits.conf
 * Use nmap and nestat to find open ports on a system
 * Configure sudo
+
+Session 20
+-----------
+Weight 3 - 110.2 - Setup host security
+
+* Understand how shadow passwords work
+* Turn off network services not  in use
+	- Redat  > chkconfig
+	- Ubuntu > update-rc.d -f apache2 remove
+* Understand the role of TCP wrappers
+	- /etc/hosts.allow /etc/hosts.deny
+* Super servers
+	- inetd
+	- xinetd
+
+Session 21
+------------
+Weight 3 - 110.3 - Securing data with encryption
+
+* Openssh client
+	- Connecting to remote servers
+	- Generate and use key pairs
+	- Keep keys in memory with ssh-agent
+* Server host keys
+* SSH tunnels
+	- X11 port forwarding
+	- Other port forwarding
+* Configure and use GPG encryption
+
+
