@@ -28,8 +28,13 @@ Ceph instructions
 * ceph-osd -i 11 -c /etc/ceph/ceph.conf
 * ssh ceph2 ceph-osd -i 21 -c /etc/ceph/ceph.conf
 * /etc/init.d/ceph -a start
+
+Ceph monitoring
+-------------------
 * ceph -k /etc/ceph/keyring.admin -c /etc/ceph/ceph.conf health
 * ceph -s
+* ceph -w
+* ceph osd tree
 
 RBD instructions
 -------------------
