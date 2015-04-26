@@ -287,10 +287,14 @@ Weight 3 - 110.3 - Securing data with encryption
 	- Connecting to remote servers
 	- Generate and use key pairs
 	- Keep keys in memory with ssh-agent
+	- signing and encrypting
+	- ssh-copy-id
 * Server host keys
 * SSH tunnels
 	- X11 port forwarding
 	- Other port forwarding
 * Configure and use GPG encryption
-
+	- gpg key generation
+	- gpg public key export
+	- encryption and decryption
 
