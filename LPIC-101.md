@@ -13,7 +13,7 @@ Session 2
 -----------
 Weight 2
 * /proc /sys /dev directories
-* lsmod lspci lsusb commands
+* lsmod, lspci, lsusb, usb-devices commands
 * add/remove kernel modules using rmmod and modeprobe & /etc/sysctl.conf
 * HAL dbus udev
 * devices UUID
