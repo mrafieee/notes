@@ -17,3 +17,14 @@ Session 1 - Basic DNS Server
 	- rndc flush
 
 
+Session 14 - Alternative DNS Servers
+----------------
+* alternatives to bind9
+	- dnsmasq
+		* dns/dhcp server
+		* great for small deployments
+	- djbdns
+		* known for security
+	- PowerDNS
+
+
