@@ -24,15 +24,16 @@ Weight 2
 session 3
 -----------
 Weight 3
-* BIOS
+* BIOS/UEFI
 * Bootloader
-	- LILO
-	- grub
+	- LILO - LInux LOader
+	- GRUB - GRand Unified Bootloader
 * kernel
 * dmesg , /var/log/messages
 * /var/log/dmesg vs dmesg command
 * init
 * /boot directory
+* scnario -- start a system > bios/uefi > MBR > Grub > initrd > kernel > init > running system
 
 Session 4
 ----------
@@ -67,7 +68,7 @@ Session 6
 ----------
 Wright 2
 * Lilo
-* Grub
+* GRUB - Grand Unified Boot Loader
 * Backup MBR
 
 Session 7
