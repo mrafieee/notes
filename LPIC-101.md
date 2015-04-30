@@ -17,6 +17,9 @@ Weight 2
 * add/remove kernel modules using rmmod and modeprobe & /etc/sysctl.conf
 * HAL dbus udev
 * devices UUID
+* the scnario is udevd detects the hardwares and populate the /dev/ directory with HAL and another daemon dbusd notified with this changes and notifies the desktop manager or tty to sho the custom message
+* sysfs is trying to be replace procfs from kernel 2.5
+* udev came from kernel 2.6
 
 session 3
 -----------
