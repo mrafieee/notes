@@ -50,13 +50,14 @@ Weight 3
 * /etc/rc{0,1,2,3,4,5,6}.d directories
 * Shutdown / restart commands
 * Upstart / systemd
+* init/ telinit commands
 
 Session 5
 ----------
 Weight 2 - Hard drive layout
 
 * Partitions / Disks
-* Filesystems
+* Filesystems 
 * Mount points
 * Swape space
 * Design considerations
@@ -70,6 +71,15 @@ Wright 2
 * Lilo
 * GRUB - Grand Unified Boot Loader
 * Backup MBR
+
+* changing root password using grub menu
+* init programs
+	- sysVinit
+		* based on sequences (number) of sh files
+	- upstart
+		* running startup services async
+	- systemd
+	- bsd init - slakware
 
 Session 7
 ----------
