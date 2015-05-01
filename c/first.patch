@@ -1,0 +1,11 @@
+--- simple.c	2015-05-01 19:10:04.353738389 +0430
++++ simplev2.c	2015-05-01 19:11:40.706672200 +0430
+@@ -1,7 +1,7 @@
+ #include <stdio.h>
+ #include <string.h>
+ 
+-main(){
++int main(){
+ 	char answer[3];
+ 	printf("What is the gnu compiler called? ");
+ 	fgets(answer,4,stdin);
