@@ -185,5 +185,14 @@ Interfaces Delay/Bandwidth table
 | Fast | 10 | 100,000 |
 | Ethe | 100 |10,000|
 
-
+Session 5
+---------------
+Framerelay networks
+* WAN connections
+	- Framerelay
+		* point to point
+		* point to multi point
+		* mesh
+	- ATM
+	- MPLS
 
