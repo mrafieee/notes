@@ -79,6 +79,10 @@ Wright 2
 	- upstart
 		* running startup services async
 	- systemd
+		* /etc/systemd/system
+		* systemctl get-default
+		* systemctl set-default multi-user.target
+		* systemctl isolate multi-user.target
 	- bsd init - slakware
 
 Session 7
@@ -262,4 +266,3 @@ weight 2 - Find system files, and place file in correct location
 * Find diles and commands
 * Find, locate, updatedb, whereis, which, type
 * /etc/updatedb.conf
-
