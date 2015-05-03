@@ -1,5 +1,28 @@
 CCNP notes
 ===========
+CBT Nugget Series notes
+
+Session 1
+-----------
+* Why cisco certification is valuable!
+* CCENT - CCNA - CCNP (R/S/T) - CCIE (R/S)
+* Certs renewal
+* Lab suggestions
+	- Tree 2600 Routers (How?)
+	- GNS3 - Free & Open source
+* HOw to do this:
+	- REPEAT, REPEAT, REPEAT
+	- Take note
+	- Build a lab
+	- Dig Deeper
+	- Fall in love
+
+Session 2
+------------
+
+
+Mr Kia Seissions
+===================
 Here I leave my notes on CCNP courses
 scnario files can be found in https://github.com/mrafieee/cisco
 
