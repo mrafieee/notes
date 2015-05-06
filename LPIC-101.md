@@ -266,3 +266,9 @@ weight 2 - Find system files, and place file in correct location
 * Find diles and commands
 * Find, locate, updatedb, whereis, which, type
 * /etc/updatedb.conf
+
+Extra notes
+------------
+echo "Message" | wall
+shutdown -r +1 "Gooing down"
+shutdown -P 13:54 "System is going to shutdown"
