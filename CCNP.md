@@ -19,6 +19,17 @@ Session 1
 
 Session 2
 ------------
+GNS3 - Graphical Network Simolator
+* GNS3 is develped as a GUI on another project called Dynamips
+* Installing and configurations
+	- importing IOS
+	- Idle PC per IOS
+	- Wireshark captures
+* Tips and tricks to save hours
+
+Session 3
+-------------
+Network Design and Documentation
 
 
 Mr Kia Seissions
