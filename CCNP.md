@@ -60,6 +60,58 @@ Network Design and Documentation
 
 Session 4
 -----------
+EIGRP:
+* keeps backup routes as a Feasible Successor (FS)
+* Fast and Simple to config
+* Both link state and distance vectore made it Hybrid
+* summerization and flexibility
+* unequal cost load balancing, intelligentally
+
+Terminalogy:
+* Neighbor table
+* Topology table
+	- Successor - the best route to destination
+	- Feasible Successors - potential route but as an alternative
+* Routing Table
+	- Feasible Distance - How far is destination
+	- Advertised distance - How far is destination from your neighbor
+	- Active route - router is activly looking for a backup
+	- Passive route - routing taable is complete and everything is find
+
+"To be considered a feasible successor, 
+the AD must be less than the FD of the Successor"
+
+* 224.0.0.10 multicast frequency
+* Messages:
+	- Hello - Forms relationships
+	- Update - Sends update and topology table
+	- Query - Asks aboute routes
+	- Reply - Response to query
+	- ACK - aknowledges the update, querry, reply, hello messages
+
+* EIGRP Metric parametrs:
+	- Bandwidth 	K1	default 1
+	- Delay 	K3	default	1
+	- Reliability	K4, K5	default	0
+	- Loading	K2	default	0
+	- MTU - actually not important
+Metric = (K1*BW + ((K2*BW)/(256-Load)) + K3*delay) * (K5/(relyability+K4))
+Rely Metric = 256*slowest_BW + ALL_LINKS_DELAY
+
+IGRP does not have 256 in formula above
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Mr Kia Seissions
