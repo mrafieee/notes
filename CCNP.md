@@ -30,6 +30,36 @@ GNS3 - Graphical Network Simolator
 Session 3
 -------------
 Network Design and Documentation
+* Having a big picture of network in mind
+* Perfection Aproch:
+	- Identify needs
+	- Plan the solution
+	- Implemant solution
+	- Document solution
+* PPDIO (Prepare, Plane, Design, Impliment, Oprimize)
+* Cisco suggestd Phases:
+	- Necessary information/data
+		* Network diagram
+		* IP address diagram
+		* Configuration commands
+		* Hardware required
+		* Equipment list
+		* Link utilization
+		* Timeline
+		* Relevent contact information
+	- Implimentation plan
+		* Identify devices and tasks
+		* List configurations
+		* Verificaton and testing
+		* List necessary software version
+	- Documentation
+		* Network diagram
+		* Current configuration
+		* Known issues
+		* Network Equipments
+
+Session 4
+-----------
 
 
 Mr Kia Seissions
