@@ -272,3 +272,8 @@ Extra notes
 echo "Message" | wall
 shutdown -r +1 "Gooing down"
 shutdown -P 13:54 "System is going to shutdown"
+
+Raid vs striped 
+RAID - Reundant Array of Independent Disks
+LVM - Logical Volume Manager
+Raid 0 - Raid 1 - Raid 5 - LVM

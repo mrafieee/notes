@@ -100,6 +100,27 @@ Rely Metric = 256*slowest_BW + ALL_LINKS_DELAY
 
 IGRP does not have 256 in formula above
 
+Session 5
+------------
+Basic EIGRP Configuration (Link to gns3 project)
+calssless - no auto summerization
+classfull - auto summarization
+
+(config)# ip default-network 192.168.1.0
+(config-router)# passive-interface default
+# conf t
+# int s0/0
+# ip summary-address eigrp 90 172.30.0.0 255.255.248.0
+
+* Load balancing in eigrp
+# router eigrp 90
+# variance 2
+
+variance is by default 1 in eigrp it means it only balances the bandwith between the very same cost links 
+by changing the variance to 2 eigrp will balance the bandwidth between the links which are 2 times bad than the successor
+
+
+
 
 
 
