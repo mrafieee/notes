@@ -72,6 +72,17 @@ Wright 2
 * GRUB - Grand Unified Boot Loader
 * Backup MBR
 
+* GRUB (legacy)
+	- /boot/grub/menu.lst
+	- grub-update
+	- grub-install
+* GRUB2
+	- /etc/grub2/grub.cfg
+	- grub2-mkconfig -o ------
+	- /etc/default/grub
+	- /etc/grub.d/
+	- grub2-install
+
 * changing root password using grub menu
 * init programs
 	- sysVinit
