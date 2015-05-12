@@ -119,8 +119,19 @@ classfull - auto summarization
 variance is by default 1 in eigrp it means it only balances the bandwith between the very same cost links 
 by changing the variance to 2 eigrp will balance the bandwidth between the links which are 2 times bad than the successor
 
-
-
+Session 6
+------------
+* NBMA - None Broadcast Multi Access Network
+* Generations of NBMA Connections
+	- X.25
+	- Frame Relay
+	- ATM
+	- MPLS
+* Frame Relay PVC Design
+	- Hub and spoke
+	- Full mesh - VOIP deployments
+	- Partial mesh
+* Pseudo-Broadcast
 
 
 
