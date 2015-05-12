@@ -99,12 +99,15 @@ Wright 2
 Session 7
 ----------
 Weight 1 - Manage Shared Libraries
+the idea is to share the same libraries in programs
 
 * Shared Libraries
 * Determining associated libs
 * Configuring System
 * ldd , ldconfig
 * ld.so.cache , ld.so.conf.d 
+* by typing sudo ldconfig creates ld.so.cache including  all pathes included in  ld.so.config files cr
+
 
 Session 8
 ----------
