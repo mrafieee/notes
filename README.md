@@ -6,6 +6,8 @@ GNU/Linux
 
 [LPIC 102 Notes](https://github.com/mrafieee/notes/blob/master/LPIC-102.md)
 
+[LPIC 2 Notes](https://github.com/mrafieee/notes/blob/master/LPIC-2.md)
+
 [CEPH](https://github.com/mrafieee/notes/blob/master/ceph.md)
 
 Cisco Related

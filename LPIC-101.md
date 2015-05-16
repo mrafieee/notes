@@ -291,3 +291,10 @@ Raid vs striped
 RAID - Reundant Array of Independent Disks
 LVM - Logical Volume Manager
 Raid 0 - Raid 1 - Raid 5 - LVM
+
+echo switches
+	-e backslash experissions like \n \t
+	-n not to insert return cariege 
+
+read -p to get the prompt in front of the statement
+
