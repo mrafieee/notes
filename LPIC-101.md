@@ -117,6 +117,7 @@ Weight 3 - Debian package management
 * dpkg-reconfigure
 * apt
 	- ape-get , apt-cache
+	- apt-cache show package_name
 	- configuration
 * aptitude
 
