@@ -125,13 +125,16 @@ Session 9
 ----------
 Weight 3 - RPM & YUM Packages
 
-* RPM
+* RPM - Redhat Package Management
 * rpm2cpio
 * cpio
-* YUM
+* YUM - Yellowdog 
 	- /etc/yum.conf
 	- /etc/yum.repos.d/
-* yumdownloader
+	- yumdownloader
+	- Yellowdog was a distro.
+	- yum info
+	- yum provides /etc/ntp.conf < gives us the detailed info about the package that uses the config file
 
 Session 10
 -----------
