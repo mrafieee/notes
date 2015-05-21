@@ -156,6 +156,9 @@ Weight 4 - Work with the command line
 	- completion
 * Commands
 	- exec, pwd, ls, unset, env, export, set
+* Multiple commands
+	- ls; ls; -- executes the commands one after another
+	- ls && ls -- executes second ls if the first one executes widthout problem
 
 Session 11
 ----------
