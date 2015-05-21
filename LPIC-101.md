@@ -126,8 +126,16 @@ Session 9
 Weight 3 - RPM & YUM Packages
 
 * RPM - Redhat Package Management
-* rpm2cpio
-* cpio
+* rpm2cpio - 
+* cpio - copy in copy out
+* original file structure > rpm2cpio > file.cpio > `cpio -idv < file.cpio` > original file structure
+	- imagine some var etc files of a specific program is missing
+	- yum provides program
+	- yumdownloader program 
+	- rpm2cpio program.rpm > file.cpio
+	- cpio -idv < file.cpio
+	- we have no the missing files in current directory
+
 * YUM - Yellowdog 
 	- /etc/yum.conf
 	- /etc/yum.repos.d/

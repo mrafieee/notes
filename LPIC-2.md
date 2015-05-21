@@ -25,6 +25,7 @@ Session 2 - Alternative DNS Servers
 		* great for small deployments
 	- djbdns
 		* known for security
+		* the same programmer of qmail
 	- PowerDNS
 
 Session 3 - Create and maintain DNS zones
