@@ -152,7 +152,7 @@ Weight 4 - Work with the command line
 	- Shell environment
 	- PATH
 	- history
-	- environment variables
+	- environment variables - we  use export to modify th env.variable temporary
 	- completion
 * Commands
 	- exec, pwd, ls, unset, env, export, set
@@ -165,7 +165,24 @@ Session 11
 Weight 3 - Processing text streams using filters
 
 * Text utiles
-cat, cut, expand, *fmt*, head, *od*, *join*, *nl*, *paste*, *pr*, *sed*, *sort*, *split*, tail, *tr*, *unexpand*, uniq, wc
+	- cat
+	- cut
+	- expand
+	- *fmt*
+	- head
+	- *od*
+	- *join*
+	- *nl*
+	- *paste*
+	- *pr*
+	- *sed*
+	- *sort*
+	- *split*
+	- tail
+	- *tr*
+	- *unexpand*
+	- uniq
+	- wc
 
 Session 12
 ----------
