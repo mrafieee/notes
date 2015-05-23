@@ -167,20 +167,20 @@ Weight 3 - Processing text streams using filters
 * Text utiles
 	- cat
 	- cut
-	- expand
+	- expand - tabs to spaces
 	- *fmt*
 	- head
 	- *od*
-	- *join*
+	- *join* - merge data like database bind using the same fields
 	- *nl*
-	- *paste*
+	- *paste* - merge data of files as columns
 	- *pr*
 	- *sed*
 	- *sort*
 	- *split*
 	- tail
 	- *tr*
-	- *unexpand*
+	- *unexpand* - unexpand -a replaces spaces into tabs
 	- uniq
 	- wc
 
