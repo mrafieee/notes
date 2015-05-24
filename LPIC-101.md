@@ -175,7 +175,9 @@ Weight 3 - Processing text streams using filters
 	- *nl*
 	- *paste* - merge data of files as columns
 	- *pr*
-	- *sed*
+	- *sed* - stream editor
+		* sed 's/this/that/g' txt.file
+		* sed 's/^test[ ]=[ ]True/test = False/g' txt.file
 	- *sort*
 	- *split*
 	- tail
