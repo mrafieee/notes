@@ -311,7 +311,7 @@ Session 24
 weight 2 - Find system files, and place file in correct location
 
 * FHS (File Hierarchy Standard)
-* Find diles and commands
+* Find files and commands
 * Find, locate, updatedb, whereis, which, type
 * /etc/updatedb.conf
 
