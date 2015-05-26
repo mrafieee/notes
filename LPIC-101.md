@@ -193,6 +193,12 @@ Weight 4 - Basic file management
 * cp, mv, rm, mkdir, rmdir, touch
 * Wildcards (golbbing)
 * Find files based on type, size, date
+	-type
+	-name
+	-iname
+	-mtime days
+	-mtime +/- ---- more/less than
+	-cmin
 * tar, cpio, dd
 * bzipz, gunzip
 
