@@ -190,7 +190,7 @@ Session 12
 ----------
 Weight 4 - Basic file management
 
-* Copy, move, delete
+* cp, mv, rm, mkdir, rmdir, touch
 * Wildcards (golbbing)
 * Find files based on type, size, date
 * tar, cpio, dd
