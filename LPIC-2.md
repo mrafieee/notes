@@ -45,7 +45,7 @@ Session 3 - Create and maintain DNS zones
 	- expiry - slaves should expire their records if they can not connect to master server after this period
 	- minimum - intervals that the changes in this dns may happen like TTL time
 * A record - Address record
-* CNAME record - Common name record this can be another a record also
+* CNAME record - Common name record this can be another a record also, name of dns server instead of ip
 * MX record - Mail exchange record
 * PTR record - for reverse ip/host lookup
 
@@ -60,7 +60,7 @@ Session 3 - Create and maintain DNS zones
 
 Session 4 - Securing DNS Server
 ---------------
-* dig -t axfr domain.com  -- fully query on a zone
+* dig -t axfr domain.com  -- fully query on a zone, zone transfer!
 * rndc status
 * when configuring slave servers we shoulp pay attention that the named service should have writ permissions to write to the /var/lib/named directory as well as root user
 
