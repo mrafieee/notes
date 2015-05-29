@@ -77,7 +77,7 @@ Session 4 - Securing DNS Server
 
 Session 5 - using diff and patch
 ---------------
+
 * diff -u orignal-file modified-file > patch.patch
 * patch < patch.patch
-
 * gcc file.c -o binary-name

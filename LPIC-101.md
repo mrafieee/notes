@@ -199,7 +199,10 @@ Weight 4 - Basic file management
 	-mtime days
 	-mtime +/- ---- more/less than
 	-cmin
-* tar, cpio, dd
+* archiving using tar, cpio, dd
+	- cpio can be used for results of find command
+		* find , | cpio -ov > file.cpio
+		* cpio -idv < file.cpio
 * bzipz, gunzip
 
 

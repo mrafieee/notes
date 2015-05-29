@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-main(){
+int main(){
 	char answer[3];
 	printf("What is the gnu compiler called? ");
 	fgets(answer,4,stdin);
