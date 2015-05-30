@@ -81,3 +81,15 @@ Session 5 - using diff and patch
 * diff -u orignal-file modified-file > patch.patch
 * patch < patch.patch
 * gcc file.c -o binary-name
+
+
+Session 6 - Netstat, lsof, iptables
+---------------
+
+* lsof -i {4,6} -- listening port
+* netstat -i INTERFACE
+* netstat -s  -- statistics
+* iptables -L
+* iptables -nvL INPUT
+* iptables -Z INPUT -- learing out the iptables history of packets
+
