@@ -203,8 +203,11 @@ Weight 4 - Basic file management
 	- cpio can be used for results of find command
 		* find , | cpio -ov > file.cpio
 		* cpio -idv < file.cpio
-* bzipz, gunzip
-
+* file comeression (create & remove source)
+	- bzip2/bunzip2 .tbz, .tar.bz2
+	- gzip/gunzip   .tgz, .tar.gz
+* folder comperession
+	- tar 
 
 Session 13
 ----------
