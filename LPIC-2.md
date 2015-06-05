@@ -93,3 +93,8 @@ Session 6 - Netstat, lsof, iptables
 * iptables -nvL INPUT
 * iptables -Z INPUT -- learing out the iptables history of packets
 
+Session 7 - Load avarage, sar, top, w
+---------------
+
+	- load avarage 1, 5, 15
+
