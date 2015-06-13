@@ -214,6 +214,10 @@ Session 13
 Weight 4 - Use streams, pipes, and reddirects
 
 * stdin, stdout, stderr
+	- default stdin - keyboard input
+	-   "    stdout - console
+	-   "    stderr - console
+
 * pipes
 * tee
 * xargs
